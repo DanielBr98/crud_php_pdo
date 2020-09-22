@@ -48,5 +48,5 @@ if (isset($form)) {
         include($pagina . '.php');
     }
 } else {
-    include('index.php');
+    header('Location: ../index.php');
 }
