@@ -1,0 +1,34 @@
+table {
+    text-align: center;
+}
+
+#editIcon {
+    font-size: 24px;
+    color: #007bff;
+    text-shadow: 2px 2px 4px black;
+}
+
+#deleteIcon {
+    font-size: 24px;
+    color: red;
+    text-shadow: 2px 2px 4px black;
+}
+
+#page {
+    margin: 0 auto;
+    width: 60%;
+}
+
+#p1 {
+    color: green;
+    text-align: center;
+}
+
+#p2 {
+    color: red;
+    text-align: center;
+}
+
+a {
+    cursor: pointer;
+}
