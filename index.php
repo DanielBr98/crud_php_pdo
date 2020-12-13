@@ -1,4 +1,5 @@
 <?php
+// teste
 require 'model/Model.php';
 extract($_POST);
 extract($_GET);
