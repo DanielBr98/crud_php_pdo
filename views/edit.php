@@ -4,6 +4,8 @@ $array = Model::user($id);
 <div id="page">
     <a class="btn btn-primary" onclick="link('list')">Back</a>
     <hr>
+    <h1>Edit</h1>
+    <hr>
     <?php
     if (isset($_SESSION['msg'])) {
         echo $_SESSION['msg'];
