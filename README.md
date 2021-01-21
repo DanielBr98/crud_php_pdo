@@ -1,7 +1,7 @@
 <h1 align="center">
     CRUD PHP
 </h1>
-<p align="center">📋 CRUD PHP with PDO type connection.</p>
+<p align="center">📋 CRUD(Create, Read, Update, Delete) PHP with PDO type connection.</p>
 
 <p align="center">
  <a href="#prerequisites">Prerequisites</a> • 
