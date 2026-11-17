@@ -26,7 +26,7 @@ Besides, it is good to have an editor to work with the code like [VSCode](https:
 
 ```bash
 # Create the following table in the MySQL database
-$ CREATE TABLE contacts (
+CREATE TABLE contacts (
 id INT(11) AUTO_INCREMENT PRIMARY KEY,
 name VARCHAR(50) NOT NULL,
 email VARCHAR(50) NOT NULL,
@@ -34,10 +34,10 @@ phoneNumber VARCHAR(50) NOT NULL
 )
 
 # Clone this repository
-$ git clone <https://github.com/DanielBr98/crud_php_pdo.git>
+git clone https://github.com/DanielBr98/crud_php_pdo.git
 
 # Access the project folder on terminal/cmd
-$ cd crud_php_pdo
+cd crud_php_pdo
 
 # To access the project in the browser, activate the Apache server and the MySQL, and then go to <http://localhost/crud_php_pdo/>
 ```
