@@ -15,7 +15,7 @@ class Model extends Connect
         }
     }
 
-    static function user($a)
+    static function user(int $a)
     {
         try {
             $select = self::conn()->prepare("SELECT * FROM contacts WHERE id = :a");
@@ -28,7 +28,7 @@ class Model extends Connect
         }
     }
 
-    static function register($a, $b, $c)
+    static function register(string $a, string $b, string $c)
     {
         try {
             $insert = self::conn()->prepare("INSERT INTO contacts (name, email, phoneNumber) VALUES (:a, :b, :c)");
@@ -42,7 +42,7 @@ class Model extends Connect
         }
     }
 
-    static function edit($a, $b, $c, $d)
+    static function edit(string $a, string $b, string $c, int $d)
     {
         try {
             $update = self::conn()->prepare("UPDATE contacts SET name = :a, email = :b, phoneNumber = :c WHERE id = :d");
@@ -57,7 +57,7 @@ class Model extends Connect
         }
     }
 
-    static function delete($a)
+    static function delete(int $a)
     {
         try {
             $delete = self::conn()->prepare("DELETE FROM contacts WHERE id = :a");

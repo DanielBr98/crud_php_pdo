@@ -1,4 +1,13 @@
 <?php
+if (!isset($id)) {
+    $id = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_NUMBER_INT);
+}
+
+if ($id === null || $id === false || $id === '') {
+    echo 'Invalid user id.';
+    return;
+}
+
 $array = Model::user($id);
 ?>
 <div id="page">

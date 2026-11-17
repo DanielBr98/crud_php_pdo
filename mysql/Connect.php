@@ -5,7 +5,8 @@ abstract class Connect
     {
         $servername = "localhost";
         $username = "root";
-        $password = "password";
+        $password = "";
+        $conn = null;
 
         try {
             $conn = new PDO("mysql:host=$servername;dbname=database", $username, $password);
@@ -13,6 +14,7 @@ abstract class Connect
         } catch (PDOException $e) {
             echo "Connection failed: " . $e->getMessage();
         }
+
         return $conn;
     }
 }

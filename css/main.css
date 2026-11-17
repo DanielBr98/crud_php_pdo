@@ -5,13 +5,13 @@ table {
 #editIcon {
     font-size: 24px;
     color: #007bff;
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 2px 2px 4px;
 }
 
 #deleteIcon {
     font-size: 24px;
     color: red;
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 2px 2px 4px;
 }
 
 #page {
